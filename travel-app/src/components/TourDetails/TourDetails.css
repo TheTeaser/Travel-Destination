@@ -4,3 +4,7 @@ div{
     align-items: center;
     justify-content: center;
 }
+
+card{
+    width: 25px;
+}
