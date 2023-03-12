@@ -1,9 +1,12 @@
 import React from 'react'
-import '../header/Header.css'
+import './Header.css'
+import Navbar from '../Navbar/Navbar'
+
 function Header() {
     return (
         <div className='header'>
             <h1>Travel Destination</h1>
+            <Navbar />
         </div>
     )
 }

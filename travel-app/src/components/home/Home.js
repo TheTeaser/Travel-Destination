@@ -1,13 +1,20 @@
 import React from "react";
-import Header from "../header/Header";
-import Tours from "../tours/Tours";
-import Footer from "../footer/Footer";
+import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
+import { Link } from "react-router-dom";
+import './Home.css'
+
 function Home() {
     return (
-        <div>
-            <Header />
-            <Tours />
-            <Footer />  
+        
+        <div className='home'>
+           
+         <Container style={{ height: '100px' }}></Container>
+            <Link to='/city'>
+                <Button variant="primary" size="lg" className="my-button">
+                        Card List: 
+                </Button>
+            </Link>
         </div>
 
     )
